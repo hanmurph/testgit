@@ -2,6 +2,8 @@
 
 # Download bam files and call peaks.
 
+
+
 ENCODE=https://www.encodeproject.org/files
 OUTDIR=../data
 MACS2="macs2 callpeak -f BAM -g hs"
@@ -12,7 +14,7 @@ echo "Processing kidney epithelial cell data"
 # Kidney epithelial cells
 # https://www.encodeproject.org/experiments/ENCSR000DVH/
 # Rep 1 - ENCFF001HQY
-# Rep 2 - ENCFF001HRF
+# Rep 3 - ENCFF001HRF
 # Control - ENCFF001HRJ
 
 # Setup
