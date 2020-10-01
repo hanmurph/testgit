@@ -2,7 +2,8 @@
 
 # Analyze peak size distribution across chromosomes.
 
-#Adding this new comment to see if it works
+#This is a new comment!
+
 
 data_dir <- "../data"
 sites <- read.table(file.path(data_dir, "sites-union.bed"),
